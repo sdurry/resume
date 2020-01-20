@@ -1,0 +1,104 @@
+---
+title: "Stephan Durry's CV"
+author: "Stephan Durry"
+date: "2020-01-01"
+output:
+  pagedown::html_resume:
+    css: ['css/styles.css', 'resume']
+    mathjax: null
+  self_contained: true
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+
+library(glue)
+library(tidyverse)
+source('R/utils_fcts.R')
+
+# Set this to true to have links turned into footnotes at the end of the document
+PDF_EXPORT <- FALSE
+
+# Load csv with position info
+position_data <- read_delim('data/positions.csv',
+                            col_names = T,
+                            delim = ";")
+
+```
+
+
+```{r}
+# When in export mode the little dots are unaligned, so fix that. 
+if(PDF_EXPORT){
+  cat("
+  <style>
+  :root{
+    --decorator-outer-offset-left: -6.5px;
+  }
+  </style>")
+}
+```
+
+
+Aside
+================================================================================
+
+<center>![portrait](img/pic.png){width=75%}</center>
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+<!--
+- <i class="fa fa-linkedin"></i> [sdurry](https://www.linkedin.com/in/sdurry/)
+-->
+- <i class="fa fa-envelope"></i> stephan.durry@gmail.com
+- <i class="fa fa-link"></i> [sdurry.com](http://sdurry.com/)
+- <i class="fa fa-phone"></i> +49 175 2679086
+
+Analytics Skills {#skills}
+--------------------------------------------------------------------------------
+
+_Languages_: R, Python
+
+_Data Stack_: dbt, airflow, AWS: Glue, Redshift (Spectrum) & S3, Metabase, Tableau
+
+_Analytics Experience_: Customer Analytics, Content Performance, Marketing Attribution, CLTV Modelling
+
+_Engineering Experience_: ETL, Data Lake Infrastructure, Data Testing, CI/CD Implementation, Workflow Orchestration
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+The source code is available on [github.com](https://github.com/sdurry/resume).
+
+Last updated on `r Sys.Date()`.
+
+Main
+================================================================================
+
+Stephan Durry {#title}
+--------------------------------------------------------------------------------
+
+```{r}
+intro_text <- "A self-taught analytics enthusiast, with the ambition to make data teams successfull using lean  infrastructure and the right tech for a problem. I started my career in publishing before stepping foot into the media startup scene in Berlin. I find great teams act in an enviroment of pyscological safety that helps every individula to learn on a daily basis. I am now looking for a new challenge in the industry I have grown fond of a long time ago - publishing."
+cat(intro_text)
+```
+
+
+Work Experience {data-icon=users data-concise=true}
+--------------------------------------------------------------------------------
+```{r}
+print_section(position_data,"industry")
+```
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data,"education")
+```
+
+
