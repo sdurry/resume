@@ -11,7 +11,7 @@ output:
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
-  results='asis', 
+  results='asis',
   echo = FALSE
 )
 
@@ -31,7 +31,7 @@ position_data <- read_delim('data/positions.csv',
 
 
 ```{r}
-# When in export mode the little dots are unaligned, so fix that. 
+# When in export mode the little dots are unaligned, so fix that.
 if(PDF_EXPORT){
   cat("
   <style>
@@ -82,7 +82,12 @@ Stephan Durry {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "A self-taught analytics enthusiast, with the ambition to make data teams successfull using lean  infrastructure and the right tech for a problem. I started my career in publishing before stepping foot into the media startup scene in Berlin. I find great teams act in an enviroment of pyscological safety that helps every individula to learn on a daily basis. I am now looking for a new challenge in the industry I have grown fond of a long time ago - publishing."
+intro_text <- "A self-taught analytics enthusiast with the ambition to make data teams successful using lean
+infrastructure and the right stack. I started my career in the publishing sector before stepping foot into
+digital media & the Berlin startup scene. Today, my team processes data of 10M+ soccer fans globally. While providing
+insights for business-critical decision-making, I managed to create an environment of psychological safety
+that helps each individual grow and learn on a daily basis.
+I am looking for the next step of my career that should take me to a media powerhouse working abroad."
 cat(intro_text)
 ```
 
