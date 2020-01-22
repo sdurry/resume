@@ -60,13 +60,13 @@ Contact {#contact}
 Analytics Skills {#skills}
 --------------------------------------------------------------------------------
 
-_Languages_: R, Python
+_Languages_: R, Python, SQL
 
 _Data Stack_: dbt, airflow, AWS (Glue, Redshift Spectrum, S3), Metabase, Tableau
 
 _Analytics Experience_: Customer Analytics, Content Performance, Marketing Attribution, CLTV Modelling
 
-_Engineering Experience_: ETL, Data Lake Infrastructure, Data Testing, CI/CD Implementation, Workflow Orchestration
+_Engineering Experience_: ETL, Data Lake Infrastructure, Data Testing, Workflow Orchestration
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
