@@ -51,10 +51,10 @@ Aside
 Contact {#contact}
 --------------------------------------------------------------------------------
 <!--
-- <i class="fa fa-linkedin"></i> [sdurry](https://www.linkedin.com/in/sdurry/)
+- <i class="fa fa-link"></i> [sdurry.com](http://sdurry.com/)
 -->
 - <i class="fa fa-envelope"></i> stephan.durry@gmail.com
-- <i class="fa fa-link"></i> [sdurry.com](http://sdurry.com/)
+- <i class="fa fa-linkedin"></i> [sdurry](https://www.linkedin.com/in/sdurry/)
 - <i class="fa fa-phone"></i> +49 175 2679086
 
 Analytics Skills {#skills}
@@ -62,7 +62,7 @@ Analytics Skills {#skills}
 
 _Languages_: R, Python
 
-_Data Stack_: dbt, airflow, AWS: Glue, Redshift (Spectrum) & S3, Metabase, Tableau
+_Data Stack_: dbt, airflow, AWS (Glue, Redshift Spectrum, S3), Metabase, Tableau
 
 _Analytics Experience_: Customer Analytics, Content Performance, Marketing Attribution, CLTV Modelling
 
@@ -71,7 +71,7 @@ _Engineering Experience_: ETL, Data Lake Infrastructure, Data Testing, CI/CD Imp
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-The source code is available on [github.com](https://github.com/sdurry/resume).
+Source code is available on [github](https://github.com/sdurry/resume).
 
 Last updated on `r Sys.Date()`.
 
@@ -82,8 +82,8 @@ Stephan Durry {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "A self-taught analytics enthusiast with the ambition to make data teams successful using lean
-infrastructure and the right stack. I started my career in the publishing sector before stepping foot into
+intro_text <- "Analytics enthusiast with the ambition to make data teams successful using a modern & lean
+tech stack. I started my career in the publishing sector before stepping foot into
 digital media & the Berlin startup scene. Today, my team processes data of 10M+ soccer fans globally. While providing
 insights for business-critical decision-making, I managed to create an environment of psychological safety
 that helps each individual grow and learn on a daily basis.
