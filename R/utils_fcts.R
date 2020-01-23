@@ -70,9 +70,9 @@ position_data %>%
   glue::glue_data(
    "### {title}",
    "\n\n",
-   "{location}",
-   "\n\n",
    "{institution}",
+   "\n\n",
+   "{location}",
    "\n\n",
    "{duration}",
    "\n\n",

@@ -60,13 +60,15 @@ Contact {#contact}
 Analytics Skills {#skills}
 --------------------------------------------------------------------------------
 
-_Languages_: R, Python, SQL
+_Languages_: German, English, Spanish (all fluent)
+
+_Coding Languages_: R, Python, SQL
 
 _Data Stack_: dbt, airflow, AWS (Glue, Redshift Spectrum, S3), Metabase, Tableau
 
-_Analytics Experience_: Customer Analytics, Content Performance, Marketing Attribution, CLTV Modelling
+_Analytics & Insights_: Customer Analytics, Content Performance, CLTV Modeling
 
-_Engineering Experience_: ETL, Data Lake Infrastructure, Data Testing, Workflow Orchestration
+_Engineering_: ETL, Data Lake Infrastructure, Data Testing, Workflow Orchestration
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
@@ -82,15 +84,12 @@ Stephan Durry {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "Analytics enthusiast with the ambition to make data teams successful using a modern & lean
-tech stack. I started my career in the publishing sector before stepping foot into
-digital media & the Berlin startup scene. Today, my team processes data of 10M+ soccer fans globally. While providing
-insights for business-critical decision-making, I managed to create an environment of psychological safety
-that helps each individual grow and learn on a daily basis.
-I am looking for the next step of my career that should take me to a media powerhouse working abroad."
+intro_text <- "An analytics enthusiast who aims to create successful data teams via a modern & lean tech stack,
+I started my career in publishing before moving into digital media & the Berlin startup.\n
+Currently and for the past 3 years, I have been with Onefootball, the world’s biggest soccer stats & news platform and home to more than 10 million monthly users.
+While providing insights for business-critical decision-making, I lead a team powered by an environment of open feedback, trust and individual development."
 cat(intro_text)
 ```
-
 
 Work Experience {data-icon=users data-concise=true}
 --------------------------------------------------------------------------------

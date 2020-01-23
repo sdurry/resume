@@ -1,14 +1,14 @@
 section;in_resume;title;country_location;city_location;institution;start_date;end_date;description
-partical_education;false;Working student football statistics;Germany;Cologne;Sport Informations Dienst;2006-09-01;2011-05-30;
-partical_education;false;Working student media analysis;Germany;Cologne;Sport+Markt AG;2009-12-01;2010-05-30;
-partical_education;false;Intern Sales;Germany;Cologne;Sport Informations Dienst;2011-06-01;2010-10-31;
-partical_education;false;Intern Business Development;Germany;Hamburg;Gruner+Jahr;2011-11-01;2012-02-28;
-partical_education;false;Working Student Business Development;Germany;Stuttgart;Motor Presse;2013-05-01;2015-03-31;
-partical_education;false;Working Student Data Analytics;Germany;Berlin;datapine;2015-05-01;2016-02-28;
-industry;true;Executive Assistant to CEO;Spain;Madrid;Motor Presse;2012-03-01;2013-04-30;My first job taught me a lot about stakeholder management and communication. Preparing and debriefing internal and external meetings fostered routines that I use on a daily basis up until today. Most important was my contribution in the development of a digital media strategy for publishing brands across differnet local markets.
-industry;true;Business Analyst;Germany;Berlin;Onefootball;2016-03-01;2017-06-30;
-industry;true;Data Lead;Germany;Berlin;Onefootball;2017-07-01;2019-09-30;In my role I was responsible for setting up the basic analytics infrastructure at Onefootball - processing 15bln user events monthly. I introduced first frameworks for ETL and data modeling which fed area specific dashboards for newsroom and marketing among other teams. Editors were able to improve weekday retention by 5ppt due to better user segementation.
-industry;true;Head of Data & Insights;Germany;Berlin;Onefootball;2019-10-01;;Today, the Data & Insights department consists of 3 disciplines - Insights, Data & Machine Learning. Providing high quality data and insights is our core. However, we started leveraging data to fuel ML/AI products in the area of NLP and recommender systems.
-education;true;B.Sc Business Administration;Germany;Cologne;University of Cologne;2007-08-01;2010-03-31;
-education;true;M.Sc Econometrics;Germany;Aachen;RWTH Aachen;2013-04-01;2015-03-31;
-extracurricular_activity;false;Youth team coach;Germany;Cologne;Pulheimer Sport-Club;2008-10-01;2011-09-30;test
+partical_education;false;Working student football statistics;DE;Cologne;Sport Informations Dienst;2006-09-01;2011-05-30;
+partical_education;false;Working student media analysis;DE;Cologne;Sport+Markt AG;2009-12-01;2010-05-30;
+partical_education;false;Intern Sales;DE;Cologne;Sport Informations Dienst;2011-06-01;2010-10-31;
+partical_education;false;Intern Business Development;DE;Hamburg;Gruner+Jahr;2011-11-01;2012-02-28;
+partical_education;false;Working Student Business Development;DE;Stuttgart;Motor Presse;2013-05-01;2015-03-31;
+partical_education;false;Working Student Data Analytics;DE;Berlin;datapine;2015-05-01;2016-02-28;
+industry;true;Executive Assistant to CEO;ES;Madrid;Motor Presse;2012-03-01;2013-04-30;My first job taught me a lot about stakeholder management and communication. Preparing and debriefing internal and external meetings fostered routines that I use on a daily basis even today. I also contributed in the development of a digital media strategy for publishing brands across different geos.
+industry;true;Business Analyst;DE;Berlin;Onefootball;2016-03-01;2017-06-30;
+industry;true;Data Lead;DE;Berlin;Onefootball;2017-07-01;2019-09-30;Responsible for setting up the basic analytics infrastructure at Onefootball with a small team of Data Engineers, processing 15bln events monthly. I introduced first frameworks for ETL and data modeling which fed area-specific dashboards for newsroom and marketing departments, among other teams. Editors were able to improve weekday retention by 3ppt due to better user segmentation.
+industry;true;Head of Data & Insights;DE;Berlin;Onefootball;2019-10-01;;Management of a multi-talented team across 3 disciplines - Analysis, Data Engineering & Data Science. I inform and deliver insights to peer stakeholders and C-Level on a weekly basis. My growing responsibility includes an increasing focus on acquiring premium talent in the field of machine learning dedicated to the development of NLP and recommender systems.
+education;true;B.Sc Business Administration;DE;Cologne;University of Cologne;2007-08-01;2010-03-31;
+education;true;M.Sc Econometrics;DE;Aachen;RWTH Aachen;2013-04-01;2015-03-31;
+extracurricular_activity;false;Youth team coach;DE;Cologne;Pulheimer Sport-Club;2008-10-01;2011-09-30;test
